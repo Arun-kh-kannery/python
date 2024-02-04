@@ -16,13 +16,4 @@
 # text=input("Enter the text :\n ")
 # print(palindromeindex(text))
 
-# l=[2,5,1,3,4]
-#
-# for i in range(len(l)):
-#     # print(l[i],i)
-#     # if(l[i]-(i+1)>2):
-#     #     print('hai')
-#
-#     for i in range(max(0,i,l[i]-2)):
-#         print((0,i,l[i]-2))
 
