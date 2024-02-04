@@ -19,9 +19,9 @@ def decryption(text,shift_key):
             ans += i
     print(f"Here is the text after decryption: {ans}")
 while(True):
-    operation=input("Type 'encrypt' for encryption,Type 'decrypt' for decryption :\n")
     text=input("Enter your message:\n ")
     shift_key=int(input("Enter Shift_Key:\n"))
+    operation = input("Type 'encrypt' for encryption,Type 'decrypt' for decryption :\n")
     if(operation == 'encrypt'):
         encryption(text,shift_key)
     elif(operation=="decrypt"):
