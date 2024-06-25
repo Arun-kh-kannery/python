@@ -17,6 +17,7 @@ def decryption(text,shift_key):
             ans += chr(ord('A') + (ord(i) - ord('A') - shift_key) % 26)
         else:
             ans += i
+        # just testing it
     print(f"Here is the text after decryption: {ans}")
 while(True):
     text=input("Enter your message:\n ")
